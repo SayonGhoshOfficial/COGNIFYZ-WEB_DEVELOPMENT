@@ -1,0 +1,28 @@
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background: #333;
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+/* Show menu when hamburger is clicked */
+.nav-active {
+    display: flex;
+}
